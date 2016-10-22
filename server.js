@@ -13,7 +13,7 @@ function creat(data){
     <html>
         <head>
             <h1>
-              Halllloo/n
+              Halllloo
             </h1>
           <br>
           <link href=/ui/style.css ref="stylesheet" />
