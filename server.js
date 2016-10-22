@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/me', function (req, res) {
-  res.send(hahaha);
+  res.send('hahaha');
 });
 
 app.get('/', function (req, res) {
