@@ -14,7 +14,10 @@ function creat(data){
     var htmltemplate=`
     <html>
         <head>
-          Halllloo
+            <h1>
+              Halllloo/n
+            </h1>
+          <br>
           <link href=/ui/style.css ref="stylesheet" />
         </head>
         <body>
