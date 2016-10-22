@@ -24,7 +24,7 @@ function creat(data){
 }
     
 app.get('/me', function (req, res) {
-  res.send('creat(me)');
+  res.send(creat(me));
 });
 
 app.get('/', function (req, res) {
