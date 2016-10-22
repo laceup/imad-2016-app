@@ -7,4 +7,4 @@ button.onclick=function(){
     var span=document.getElementById('span');
     span.InnerHtml =c.toString();
     
-}
+};
