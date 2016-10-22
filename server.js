@@ -23,7 +23,7 @@ function creat(data){
     </html>`;
 }
     
-app.get('ui/me.html', function (req, res) {
+app.get('/ui/me.html', function (req, res) {
   res.send(creat(me));
 });
 
