@@ -5,9 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 var me = {
-    content:`me ,
-            myself,
-            and I`
+    content:'me , myself, and I'
 };
 function creat(data){
     var content= data.content;
