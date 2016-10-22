@@ -15,6 +15,7 @@ function creat(data){
     <html>
         <head>
           Halllloo
+          <link href=/ui/style.css ref="stylesheet" />
         </head>
         <body>
             ${content}
