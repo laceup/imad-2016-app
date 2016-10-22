@@ -8,9 +8,9 @@ var me = {
     content:`me ,
             myself,
             and I`
-} 
+};
 function creat(data){
-    var content= data.content
+    var content= data.content;
     var htmltemplate=`
     <html>
         <head>
@@ -20,8 +20,7 @@ function creat(data){
         <body>
             ${content}
         </body>
-    </html>
-    
+    </html>`;
 }
     
 app.get('/me', function (req, res) {
