@@ -21,6 +21,7 @@ function creat(data){
             ${content}
         </body>
     </html>`;
+    return htmltemplate;
 }
     
 app.get('/ui/me.html', function (req, res) {
