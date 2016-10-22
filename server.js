@@ -4,9 +4,27 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
+var me = {
+    content:`me ,
+            myself,
+            and I`
+} 
+function creat(data){
+    var content= data.content
+    var htmltemplate=`
+    <html>
+        <head>
+          Halllloo
+        </head>
+        <body>
+            ${content}
+        </body>
+    </html>
+    
+}
+    
 app.get('/me', function (req, res) {
-  res.send('hahaha');
+  res.send('creat(me)');
 });
 
 app.get('/', function (req, res) {
