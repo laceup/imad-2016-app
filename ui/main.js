@@ -1,6 +1,6 @@
 console.log('Loaded!');
 alert('halllo');
-(function(){
+$(document).ready(function(){
     var button = document.getElementById('bu');
 var c = 0;
 button.onclick=function(){
@@ -9,5 +9,5 @@ button.onclick=function(){
     span.InnerHtml=c.toString();
     
 };
-})();
+}();
 
