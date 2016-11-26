@@ -1,6 +1,7 @@
 console.log('Loaded!');
 alert('halllo');
-var button = document.getElementById('bu');
+(function(){
+    var button = document.getElementById('bu');
 var c = 0;
 button.onclick=function(){
     c=c+1;
@@ -8,3 +9,5 @@ button.onclick=function(){
     span.InnerHtml =c.toString();
     
 };
+})();
+
