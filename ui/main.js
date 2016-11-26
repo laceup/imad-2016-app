@@ -5,9 +5,9 @@ document.onreadystatechange = function(){
 var c = 0;
 button.onclick=function(){
     c=c+1;
-    var span=c
-    document.getElementById('span1')=span;
-    span.InnerHtml=c.toString();
+    var count=c;
+    document.getElementById('span1').value = count;
+    //s.InnerHtml=c.toString();
     console.log(c);
     };
 };
