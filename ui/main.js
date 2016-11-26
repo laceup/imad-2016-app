@@ -5,7 +5,8 @@ document.onreadystatechange = function(){
 var c = 0;
 button.onclick=function(){
     c=c+1;
-    var span=document.getElementById('span1');
+    var span=c
+    document.getElementById('span1')=span;
     span.InnerHtml=c.toString();
     console.log(c);
     };
