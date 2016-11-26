@@ -9,5 +9,5 @@ button.onclick=function(){
     span.InnerHtml=c.toString();
     
 };
-}();
+};
 
