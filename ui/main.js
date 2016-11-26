@@ -7,6 +7,7 @@ button.onclick=function(){
     c=c+1;
     var span=document.getElementById('span1');
     span.InnerHtml=c.toString();
+    console.log(c);
     };
 };
 
