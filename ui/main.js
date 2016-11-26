@@ -6,7 +6,7 @@ var c = 0;
 button.onclick=function(){
     c=c+1;
     var count=c;
-    document.getElementById('span1').value = count;
+    document.getElementById("demo").innerHTML  = count;
     //s.InnerHtml=c.toString();
     console.log(c);
     };
